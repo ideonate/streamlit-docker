@@ -19,3 +19,4 @@ cd ../streamlit-launchpad
 
 docker build -t ideonate/streamlit-launchpad:$dt .
 docker tag ideonate/streamlit-launchpad:$dt ideonate/streamlit-launchpad:latest
+
