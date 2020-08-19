@@ -78,8 +78,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           path: ./streamlit-single
           repository: ideonate/streamlit-single-scipy
-          build_args:
-            - BASE_REPO=ideonate/streamlit-base-scipy:latest
+          build_args: BASE_REPO=ideonate/streamlit-base-scipy:latest
           tag_with_ref: true
           tag_with_sha: true
 
@@ -117,7 +116,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           path: ./streamlit-launchpad
           repository: ideonate/streamlit-launchpad-scipy
-          build_args:
-            - BASE_REPO=ideonate/streamlit-base-scipy:latest
+          build_args: BASE_REPO=ideonate/streamlit-base-scipy:latest
           tag_with_ref: true
           tag_with_sha: true
