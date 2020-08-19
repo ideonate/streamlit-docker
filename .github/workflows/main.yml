@@ -101,7 +101,7 @@ jobs:
           tag_with_ref: true
           tag_with_sha: true
 
-  build_streamlit_launchpad:
+  build_streamlit_launchpad_scipy:
     name: Build and Push streamlit-launchpad-scipy
     runs-on: ubuntu-18.04
     needs: build_streamlit_base_scipy
